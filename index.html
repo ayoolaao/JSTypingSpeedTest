@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>JS Typing Speed Test</title>
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400|Pacifico" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Pacifico|Gloria+Hallelujah" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" defer></script>
@@ -15,39 +15,39 @@
 <body class="container-fluid">
 
 <header class="row">
-	<section class="col-lg-4 offset-lg-4">
+	<section class="col">
 		<h1>Test Your Typing Speed</h1>
 	</section>
 </header>
 
 <main class="main">
 	<article class="intro row">
-		<p class="col-lg-4 offset-lg-4 col-md-6 offset-md-3">
+		<p class="col-xl-4 offset-xl-4 col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-10 offset-sm-1 col-xs-12">
 			This is a typing test. Your goal is to duplicate the provided text, EXACTLY, in the field below.
 			The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!
 		</p>
 	</article>
 
 	<div id="origin-text" class="row">
-		<p class="col-lg-4 offset-lg-4">The text to test</p>
+		<p class="col-xl-4 offset-xl-4 col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-10 offset-sm-1 col-xs-12">The text to test</p>
 	</div>
 
-	<div class="row form-group has-success">
-		<div id="test-wrapper" class="col-lg-4 offset-lg-4 ">
+	<div class="row form-group has-danger">
+		<div id="test-wrapper" class="col-xl-4 offset-xl-4 col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-10 offset-sm-1 col-xs-12">
 			<textarea id="test-area" class="form-control" name="testarea" rows="6" placeholder="The timer starts when you start typing."></textarea>
 		</div>
 	</div>
 
 	<div id="meta" class="row">
-		<div class="col-lg-4 offset-lg-4">
+		<div class="col-xl-4 offset-xl-4 col-lg-6 offset-lg-3 col-md-6 offset-md-3 col-sm-10 offset-sm-1 col-xs-12">
 
 			<div class="row">
-				<section id="clock" class="col-lg-6">
+				<section id="clock" class="col-6">
 					<p class="timer">00:00:00</p>
 				</section>
 
-				<section id="reset-button" class="col-lg-6">
-					<button type="button" id="reset" class="btn btn-outline-danger">Start over</button>
+				<section id="reset-button" class="col-6">
+					<button type="button" id="reset" class="btn btn-info btn-lg">Start over</button>
 				</section>
 			</div>
 
