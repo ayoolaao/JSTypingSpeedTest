@@ -1,0 +1,30 @@
+
+header {
+    padding: 4vh 0;
+    background: #33658a;
+    color: #fff;
+    width: 100vw;
+    text-align: center;
+}
+
+.intro {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: #087a4a;
+    color: #fff;
+    width: 100vw;
+}
+
+#origin-text {
+    padding: 1em;
+}
+
+#origin-text p {
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding: 0.5%;
+    background: #B8BCBC;
+    color: #000;
+    text-align: center;
+    font-size: 1.5em;
+}
