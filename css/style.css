@@ -45,3 +45,13 @@ header {
 #reset-button {
     text-align: center;
 }
+
+#test-wrapper {
+    border: dashed;
+}
+
+.form-rounded {
+    border-top-right-radius: 1rem;
+    border-width: 5px;
+    border-style: double;
+}
